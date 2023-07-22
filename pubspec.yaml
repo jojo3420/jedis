@@ -1,0 +1,42 @@
+name: udemy_flutter_bootcamp
+description: udemy flutter bootcamp with anjella
+publish_to: 'joel.silver'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^5.3.0
+  redis: ^3.1.0
+  resizable_widget: ^1.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 800
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+          weight: 200
+    - family: AbrilFatface
+      fonts:
+        - asset: assets/fonts/abril_fatface/AbrilFatface-Regular.ttf
+
+    - family: LilitaOne
+      fonts:
+        - asset: assets/fonts/lilita_one/LilitaOne-Regular.ttf
